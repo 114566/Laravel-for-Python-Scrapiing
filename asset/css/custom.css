@@ -1,0 +1,89 @@
+@font-face {
+  font-family: 'ja-font';
+  src: url('./font/Trym2kp.ttc');
+  font-weight: 900;
+}
+.ja-font {
+  font-family: ja-font !important;
+}
+/* header */
+.title {
+  position: fixed;
+  top: 0;
+  left: 0;
+  /* background: url('../img/background.jpg'); */
+  background: linear-gradient(90deg, #56CCF2, #2F80ED);
+  background-size: cover;
+  color: white;
+  width: 100%;
+}
+.title h2 {
+  text-shadow: 0 2px 2px #333;
+}
+.date-option,
+.classfication{
+  background-color: rgb(100, 100, 100, 0.3);
+  border: 1px solid #fff;
+  border-radius: 5px;
+  /* box-shadow: 2px 2px 3px #ddd; */
+}
+.graph-display-label {
+  top: -13px;
+  left: 80px;
+  background-image: linear-gradient(195deg, #66BB6A 0%, #43A047 100%);
+  border: 1px solid #fff;
+  border-radius: 20px;
+  box-shadow: 1px 1px 3px #f0f0f0;
+}
+.form-check-input:focus~label {
+  color: #58cf6c;
+  font-weight: bolder;
+}
+
+/* header */
+.col-6 canvas {
+  padding: 0 20px;
+}
+.main {
+  overflow-x: hidden;
+  margin-top: 100px !important;
+}
+.error_msg {
+  margin-top: 155px;
+  color: #fff;
+  border-radius: 20px;
+  border: 3px solid yellow;
+  background-color: rgb(200, 40, 40, 0.3);
+  padding: 10px;
+}
+.bar-to-line {
+  position: fixed;
+  top: 130px;
+  right: 30px;
+}
+.change_chart_back i {
+  font-size: 2rem;
+  cursor: pointer;
+  color: #198754;
+}
+.change_chart_back i:active {
+  font-size: 1.9rem;
+  color: #dc3545;
+}
+.show-all {
+  top: 210px;
+  right: -15px;
+}
+.show-all button {
+  transform:rotate(270deg);
+}
+.countryList_1-b,
+.countryList_2-b
+{
+  width: 300px !important;
+  color: #000;
+}
+.countryList-select-box {
+  
+}
+
